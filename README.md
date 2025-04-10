@@ -1,20 +1,18 @@
-
-README
-======
+# README
 
 This is a skeleton TypeScript project for use when developing web applications. It assumes
 Node.js version 22 is used, although it will probably work for other (newer) versions.
 
 This skeleton is moderately opinionated and contains starter files for the following:
 
-+ Configuration settings for both Visual Studio Code and JetBrains IDEs (e.g., WebStorm).
-+ TypeScript configuration that enforces strict type checking.
-+ ESLint configuration for linting TypeScript code that enforces best practices.
-+ Prettier configuration for code formatting.
-+ Vite configuration for building and serving the project.
-+ Sample TypeScript code to demonstrate the setup.
-+ Vitest configuration for running tests with TypeScript.
-+ JSDoc comments for documenting TypeScript code.
+- Configuration settings for both Visual Studio Code and JetBrains IDEs (e.g., WebStorm).
+- TypeScript configuration that enforces strict type checking.
+- ESLint configuration for linting TypeScript code that enforces best practices.
+- Prettier configuration for code formatting.
+- Vite configuration for building and serving the project.
+- Sample TypeScript code to demonstrate the setup.
+- Vitest configuration for running tests with TypeScript.
+- JSDoc comments for documenting TypeScript code.
 
 This skeleton is intended for use in greenfield TypeScript projects without any legacy
 JavaScript. The configuration is fairly aggressive in enforcing type safety and best practices,
@@ -61,6 +59,12 @@ To run ESLint over the entire codebase:
 npm run lint
 ```
 
+To run Prettier over the entire codebase (note that this will edit files in place):
+
+```bash
+npm run format
+```
+
 To run the development web server and view the sample, use the command:
 
 ```bash
@@ -81,4 +85,4 @@ npm run test
 ```
 
 Peter Chapin  
-spicacality@kelseymountain.org  
+spicacality@kelseymountain.org

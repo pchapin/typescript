@@ -8,8 +8,9 @@
     "build": "vite build",
     "preview": "vite preview",
     "lint": "eslint . --ext .ts,.tsx",
+    "check-format": "prettier --check .",
     "format": "prettier --write ."
-    },
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -21,6 +22,7 @@
     "@typescript-eslint/parser": "^8.24.1",
     "eslint": "^9.21.0",
     "globals": "^16.0.0",
+    "prettier": "^3.5.3",
     "ts-node": "^10.9.2",
     "typescript": "^5.7.3",
     "typescript-eslint": "^8.24.1",

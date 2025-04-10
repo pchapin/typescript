@@ -1,11 +1,10 @@
-
 function greet(name: string): void {
-    console.log(`Hello, ${name}!`);
+  console.log(`Hello, ${name}!`);
 }
 
 function add(a: number, b: number): number {
-    return a + b;
+  return a + b;
 }
 
-greet("Vite + TypeScript");
-document.body.innerHTML = "<h1>Hello, Vite!</h1>";
+greet('Vite + TypeScript');
+document.body.innerHTML = '<h1>Hello, Vite!</h1>';
