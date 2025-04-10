@@ -1,0 +1,29 @@
+{
+    // Enable ESLint integration in VS Code
+    "eslint.enable": true,
+    "eslint.validate": ["typescript", "javascript"],
+    "eslint.experimental.useFlatConfig": true
+    
+    // === Auto-Fix Behavior ===
+
+    // This project does not apply ESLint fixes automatically on save. This gives
+    // users full control and avoids unexpected edits from aggressive rules.
+    //
+    // To enable automatic fixing on save, see the commented options below.
+    "editor.codeActionsOnSave": {
+        
+        // ESLint will not apply any fixes unless explicitly enabled. You can turn this on by
+        // changing this to true.
+        "source.fixAll.eslint": "explicit"
+    },
+
+    // === Optional quality-of-life ===
+    "editor.detectIndentation": false
+    
+    // Do not use VS Code’s built-in formatter
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": null,
+    
+    // Optional: ensure TypeScript language features work smoothly
+    "typescript.validate.enable": true,  
+}
