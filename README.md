@@ -10,13 +10,15 @@ This skeleton is moderately opinionated and contains starter files for the follo
 - ESLint configuration for linting TypeScript code that enforces best practices.
 - Prettier configuration for code formatting.
 - Vite configuration for building and serving the project.
-- Sample TypeScript code to demonstrate the setup.
 - Vitest configuration for running tests with TypeScript.
+- Sample TypeScript code to demonstrate the setup.
 - JSDoc comments for documenting TypeScript code.
 
 This skeleton is intended for use in greenfield TypeScript projects without any legacy
 JavaScript. The configuration is fairly aggressive in enforcing type safety and best practices,
-so it may not be suitable for all projects.
+so it may not be suitable for all projects. However, this skeleton is also front-end framework
+agnostic. It is suitable for projects using plain TypeScript, but with the addition of
+appropriate framework-specific packages, it could be extended.
 
 To use this skeleton, follow these steps:
 
@@ -63,6 +65,13 @@ To run Prettier over the entire codebase (note that this will edit files in plac
 
 ```bash
 npm run format
+```
+
+To generate documentation using Typedoc, run the following command (this will put the generated
+HTML in the `docs` folder):
+
+```bash
+npm run docs
 ```
 
 To run the development web server and view the sample, use the command:

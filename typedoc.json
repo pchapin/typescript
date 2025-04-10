@@ -1,5 +1,5 @@
 {
-    "entryPoints": ["src"],
-    "out": "docs",
-    "includeVersion": true
-  }
+  "entryPoints": ["src"],
+  "out": "docs",
+  "includeVersion": true
+}
