@@ -2,21 +2,23 @@
 README
 ======
 
-This is a skeleton TypeScript project. It is moderately opinionated and contains starter files
-for the following:
+This is a skeleton TypeScript project for use when developing web applications. It assumes
+Node.js version 22 is used, although it will probably work for other (newer) versions.
 
+This skeleton is moderately opinionated and contains starter files for the following:
+
++ Configuration settings for both Visual Studio Code and JetBrains IDEs (e.g., WebStorm).
 + TypeScript configuration that enforces strict type checking.
 + ESLint configuration for linting TypeScript code that enforces best practices.
-+ Sample TypeScript code to demonstrate the setup.
 + Prettier configuration for code formatting.
 + Vite configuration for building and serving the project.
++ Sample TypeScript code to demonstrate the setup.
 + Vitest configuration for running tests with TypeScript.
 + JSDoc comments for documenting TypeScript code.
-+ Configuration settings for both Visual Studio Code and JetBrains IDEs (e.g., WebStorm).
 
 This skeleton is intended for use in greenfield TypeScript projects without any legacy
 JavaScript. The configuration is fairly aggressive in enforcing type safety and best practices,
-so it may not be suitable for all projects as-is.
+so it may not be suitable for all projects.
 
 To use this skeleton, follow these steps:
 
@@ -33,8 +35,8 @@ To use this skeleton, follow these steps:
    JetBrains IDEs (in `.idea`). You can delete either or both of those folders if you are not
    using those editors.
 
-4. Change the name of the project in `package.json` to something more appropriate for your
-   project. Adjust the version number in that file as well, if desired.
+4. Change the name of the project at the top of `package.json` to something more appropriate for
+   your project. Adjust the version number in that file as well, if desired.
 
 5. If you are using a JetBrains IDE, rename `.idea/TypeScript.iml` to something more appropriate
    for your project and edit `.idea/modules.xml` accordingly.
@@ -51,10 +53,25 @@ To use this skeleton, follow these steps:
 
 ## Testing
 
-This skeleton contains a sample file `src/index.ts` that demonstrates the setup. You can run the sample as a stand-alone Node.js program using the command:
+This skeleton contains a sample `index.html` and `src/main.ts` that demonstrate the setup.
+
+To run the development web server and view the sample, use the command:
 
 ```bash
-npm run start
+npm run dev
+```
+
+To preview the final build, use the command:
+
+```bash
+npm run build
+npm run preview
+```
+
+To run the tests, use the command:
+
+```bash
+npm run test
 ```
 
 Peter Chapin  
