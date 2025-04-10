@@ -55,6 +55,12 @@ To use this skeleton, follow these steps:
 
 This skeleton contains a sample `index.html` and `src/main.ts` that demonstrate the setup.
 
+To run ESLint over the entire codebase:
+
+```bash
+npm run lint
+```
+
 To run the development web server and view the sample, use the command:
 
 ```bash
