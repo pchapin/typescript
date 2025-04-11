@@ -1,9 +1,9 @@
 # README
 
-This is a skeleton TypeScript project for use when developing web applications. It assumes
+This is a template TypeScript project for use when developing web applications. It assumes
 Node.js version 22 is used, although it will probably work for other (newer) versions.
 
-This skeleton is moderately opinionated and contains starter files for the following:
+This template is moderately opinionated and contains starter files for the following:
 
 - Configuration settings for both Visual Studio Code and JetBrains IDEs (e.g., WebStorm).
 - TypeScript configuration that enforces strict type checking.
@@ -11,16 +11,16 @@ This skeleton is moderately opinionated and contains starter files for the follo
 - Prettier configuration for code formatting.
 - Vite configuration for building and serving the project.
 - Vitest configuration for running tests with TypeScript.
+- Typedoc configuration for extracting JSDoc documentation from TypeScript code.
 - Sample TypeScript code to demonstrate the setup.
-- JSDoc comments for documenting TypeScript code.
 
-This skeleton is intended for use in greenfield TypeScript projects without any legacy
+This template is intended for use in greenfield TypeScript projects without any legacy
 JavaScript. The configuration is fairly aggressive in enforcing type safety and best practices,
-so it may not be suitable for all projects. However, this skeleton is also front-end framework
-agnostic. It is suitable for projects using plain TypeScript, but with the addition of
-appropriate framework-specific packages, it could be extended.
+so it may not be suitable for all projects. However, this template is also front-end agnostic.
+It is suitable for projects using plain TypeScript, but with the addition of appropriate
+framework-specific packages, it could be extended.
 
-To use this skeleton, follow these steps:
+To use this template, follow these steps:
 
 ## Preliminaries
 
@@ -28,12 +28,12 @@ To use this skeleton, follow these steps:
    repository.
 
 2. If you have a (preferably) empty repository for your project, copy all the files from this
-   skeleton into your repository. If you are building a project without Git, you can work with
-   this skeleton directly.
+   template into your repository. If you are building a project without Git, you can work with
+   this template directly.
 
-3. This skeleton contains editor configurations for Visual Studio Code (in `.vscode`)and
-   JetBrains IDEs (in `.idea`). You can delete either or both of those folders if you are not
-   using those editors.
+3. This template contains configurations for Visual Studio Code (in `.vscode`)and JetBrains IDEs
+   (in `.idea`). You can delete either or both of those folders if you are not using those
+   editors.
 
 4. Change the name of the project at the top of `package.json` to something more appropriate for
    your project. Adjust the version number in that file as well, if desired.
@@ -48,12 +48,12 @@ To use this skeleton, follow these steps:
 1. Use the command `npm install` to install the necessary dependencies into `node_modules`.
 
 2. Review the configuration files to ensure they meet your project's needs. You may want to
-   adjust settings in `tsconfig.json`, `.eslint.config.mjs`, `.prettierrc`, and the other
-   configuration files in the project root.
+   adjust settings in `tsconfig.json`, `.eslint.config.mjs`, `.prettierrc`, `typedoc.json`,
+   `vite.config.mts`, and the other configuration files in the project root.
 
 ## Testing
 
-This skeleton contains a sample `index.html` and `src/main.ts` that demonstrate the setup.
+This skeleton contains a sample `index.html` and `src/main.ts` that demonstrate this template.
 
 To run ESLint over the entire codebase:
 
@@ -61,7 +61,7 @@ To run ESLint over the entire codebase:
 npm run lint
 ```
 
-To run Prettier over the entire codebase (note that this will edit files in place):
+To run Prettier over the entire codebase (this will edit files in place):
 
 ```bash
 npm run format
