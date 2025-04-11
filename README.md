@@ -53,7 +53,7 @@ To use this template, follow these steps:
 1. Use the command `npm install` to install the necessary dependencies into `node_modules`.
 
 2. Review the configuration files to ensure they meet your project's needs. You may want to
-   adjust settings in `tsconfig.json`, `.eslint.config.mjs`, `.prettierrc`, `typedoc.json`,
+   adjust settings in `tsconfig.json`, `eslint.config.mjs`, `.prettierrc`, `typedoc.json`,
    `vite.config.mts`, and the other configuration files in the project root. Of course, you can,
    and most likely will, adjust these settings as you develop your application.
 
@@ -75,26 +75,25 @@ To run Prettier over the entire codebase (this will edit files in place):
 npm run format
 ```
 
-To generate documentation using Typedoc, run the following command (this will put the generated
-HTML in the `docs` folder):
+To generate documentation using Typedoc (this will put the generated HTML in the `docs` folder):
 
 ```bash
 npm run docs
 ```
 
-To run the tests, use the command:
+To run the tests:
 
 ```bash
 npm run test
 ```
 
-To run the development web server and view the sample application, use the command:
+To run the development web server and view the sample application:
 
 ```bash
 npm run dev
 ```
 
-To preview the final build, use the command:
+To preview the final build:
 
 ```bash
 npm run build
