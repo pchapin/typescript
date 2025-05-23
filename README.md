@@ -3,9 +3,9 @@
 This is a template TypeScript project for use when developing web applications.
 
 A prerequisite of using this template is Node.js. Use a version that is *at least* version 18
-(the template has been tested using version 22). This template makes use of modern Vite features
-that require ECMAScript modules and maybe other things. It also targets modern web browsers that
-support ES2020 (or later).
+(the template has been tested using version 22.12.0). This template makes use of modern Vite
+features that require ECMAScript modules and maybe other things. It also targets modern web
+browsers that support ES2020 (or later).
 
 This template is moderately opinionated and contains starter files for the following:
 
