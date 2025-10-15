@@ -9,6 +9,7 @@ export default [
       'eslint.config.mjs',
       'vite.config.mts',
       'dist',
+      'docs',
       'node_modules',
       'public', // If you're not linting static HTML/docs/etc.
     ],
